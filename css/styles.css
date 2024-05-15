@@ -179,7 +179,10 @@ font-size: 16px;
 }
 
 .command-text{
-text-align: left;
+font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.02em;
+        color: #434455;
 }
 
 .head-footer{
@@ -187,8 +190,12 @@ background-color: #2e2f42;
 }
 
 #logo-footer{
-    color: #f4f4fd;
+    color: #4d5ae5;
     background: #2e2f42;
+}
+
+.name-footer{
+        color: #f4f4fd;
 }
 
 .text-footer{
