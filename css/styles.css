@@ -10,6 +10,25 @@ list-style-type: none;
 
 a{
     text-decoration: none;
+    font-style: normal;
+}
+
+button{
+        cursor: pointer;
+}
+
+.visually-hidden {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
 }
 
 .logo{
@@ -43,7 +62,7 @@ a{
 }
 
 .link-address{
-    font-weight: 400;
+    /* font-weight: 400; */
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
@@ -73,6 +92,15 @@ a{
         background: #4d5ae5;
 }
 
+.solution-btn:hover {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.04em;
+        color: #fff;
+        background: #404bbf;
+}
+
 .h3{
         font-weight: 500;
         font-size: 20px;
@@ -82,7 +110,7 @@ a{
 }
 
 p{
-        font-weight: 400;
+        /* font-weight: 400; */
         font-size: 16px;
         line-height: 150%;
         letter-spacing: 0.02em;
@@ -109,7 +137,7 @@ h2{
 }
 
 .text-footer{
-        font-weight: 400;
+        /* font-weight: 400; */
         font-size: 16px;
         line-height: 150%;
         letter-spacing: 0.02em;
